@@ -1,0 +1,195 @@
+
+body{
+    margin: 0;
+}
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 0px; */
+    position: sticky;
+    background-color: rgba(128, 128, 128, 0.562);
+     /* position: sticky;
+    top: 0; */
+    
+   
+    padding: 20px;
+    z-index: 1000;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+
+}
+
+/* nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    background: #222;
+    padding: 20px;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+} */
+/* .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #333;
+    min-width: 200px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.submenu li a {
+    padding: 12px 15px;
+    color: white;
+    display: block;
+}
+
+.submenu li a:hover {
+    background: #444;
+}
+
+/* SHOW SUBMENU ON HOVER */
+/* .dropdown:hover .submenu {
+    display: block;
+}  */
+
+
+
+
+.testmonial{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.card{
+    background-color: aliceblue;
+    width: 250px;
+    min-height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+}
+#img{
+    position: absolute;
+    border-radius: 50%;
+    top: -40px;
+}
+#name{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+#title{
+    margin-top: -15px;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 14px;
+}
+#content{
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+.stars i{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-right: 2px;
+
+}
+
+.trial{
+    width: 80%;
+    text-align: center;
+    position: relative;
+    height: 200px;
+    margin: auto;
+
+}
+.img1{
+    border-radius: 50%;
+    /* position: absolute; */
+    /* position: relative;
+    top: -30px; */
+
+}
+.par{
+    height: 200px;
+    background-color: blueviolet;
+    overflow-x: hidden;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    padding: 40px;
+   
+}
+.par p{
+    float: left;
+     width: 70%;
+}
+.img{
+    /* border-radius: 50%; */
+    float: right;
+}
+
+/* == GRID TEST == */
+
+#grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 800PX;
+
+
+}
+.grid-container{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 40px;
+    
+
+}
+.box{
+    /* place-items: center; */
+    width: 300px;
+    height: 200px;
+    background-color: beige;
+    border-radius: 20px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+    padding: 20px;
+}
+
+
+/* == END GRID TEST == */
